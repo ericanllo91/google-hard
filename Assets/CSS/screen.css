@@ -1,0 +1,227 @@
+
+
+/*HEADER */
+[type=submit] {
+    background-image: url("../Images/google-icon/1.jpg");
+    background-size: 45px, 45px;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 440px;
+    z-index: 2;
+    border-radius: 30px;
+    border: white;
+
+}
+
+.form {
+    position: relative;
+    margin-left: 30px;
+    margin-right: 100px;
+
+}
+
+#search {
+    width: 500px;
+    padding: 0;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0;
+    box-shadow: 10px 10px 8px #888888;
+    border: grey 1px solid;
+
+
+}
+
+.form a {
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    z-index: 3;
+    font-size: 1.5rem;
+    color: grey;
+    text-decoration-line: none;
+    border-right: grey 0.5px solid;
+    padding-right: 10px;
+
+
+}
+
+.fox {
+    width: 100px;
+    height: 100px;
+
+}
+
+.raccoon {
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.google-pic {
+    width: 100px;
+    height: 40px;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 25px 25px 0 25px;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    background: white;
+}
+
+
+/* MAIN */
+
+main {
+    margin: 0 150px;
+    top: 150px;
+    position: relative;
+    /bottom: 125px;
+    margin-bottom: 200px;
+
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.elements2 {
+    display: flex;
+}
+
+.elements3 {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 130px;
+
+}
+
+.elements2 li {
+    padding: 5px;
+    padding-left: 25px;
+
+}
+
+.elements3 li {
+    padding: 5px;
+}
+
+.all {
+    background-image: url("../Images/google-icon/1.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.b {
+    background-image: url("../Images/google-icon/2.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.c {
+    background-image: url("../Images/google-icon/3.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.d {
+    background-image: url("../Images/google-icon/4.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.e{
+    background-image: url("../Images/google-icon/5.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.f{
+    background-image: url("../Images/google-icon/6.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+#line {
+    border-top: hotpink 3px solid;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+.reference {
+    padding-top: 10px;
+
+}
+
+.container {
+    display: block;
+    max-width: 500px;
+}
+
+.container * {
+    padding-top: 10px;
+}
+
+.container h2 {
+    font-family: "Agency FB";
+    color: black;
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    color: blue;
+
+}
+
+.container p {
+    color: grey;
+}
+
+/* FOOTER */
+
+footer {
+
+    background: greenyellow;
+}
+footer > * {
+    padding-left: 150px;
+    display: flex;
+    padding-top: 20px;
+
+
+
+}
+.first {
+    border-bottom: hotpink 2px solid;
+    padding-bottom: 10px;
+
+
+}
+
+.second {
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.first > * {
+    padding-right: 20px;
+    border-right: hotpink 1px solid;
+}
+.second > * {
+    padding-right: 20px;
+    border-right: hotpink 1px solid;
+}
